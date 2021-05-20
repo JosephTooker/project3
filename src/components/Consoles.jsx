@@ -32,7 +32,7 @@ function Consoles() {
                     <div className='d-grid gap-2' key={console.id}>
                         <button type='button' className='btn btn-danger' onClick={() => setSelectedConsole(console.id)}>
                                 {console.name}
-                            </button>
+                        </button>
                     </div>
                 );
             })}
